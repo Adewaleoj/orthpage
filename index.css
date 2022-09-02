@@ -1571,7 +1571,7 @@ flex-direction: column;
 
 
 
-@media all and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .operations {
     max-width: 100%;
     margin: 12rem auto 0 auto;
@@ -1808,31 +1808,35 @@ flex-direction: column;
 
 @media (min-aspect-ratio: 16/9) {
   .back-video {
-    width: 100;
+    width: 100%;
     height: auto;
+    background: black;
+    bottom: 0;
   }
 }
 
 @media (max-aspect-ratio: 16/9) {
   .back-video {
-    width: auto;
-    height: 100;
+    width: 100%;
+    height: 100%;
+    background: black;
   }
 }
 
 
 @media screen and (max-width: 480px){
-
   .back-video {
     position: absolute;
     justify-content: center;
     align-items: center;
     display: flex;
-    max-width: 100%;
+    width: 100%;
+    padding: 0;
     height: 100%;
     z-index: -1;
-  padding-bottom: 30rem;
+  padding-bottom: 28rem;
   }
+  
 
 }
 
