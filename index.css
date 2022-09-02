@@ -289,7 +289,7 @@ height: 100vh;
     position: fixed;
     top: 50%;
     left: 50%;
-    height: 70vh;
+    height: 90vh;
     transform: translate(-50%, -50%);
     width: 100rem;
     background-image: linear-gradient(to top, #08ffde 0%, gray 50%, #ffb199 100%);
@@ -410,7 +410,7 @@ height: 100vh;
     }
     
     .modal__form label {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     
@@ -479,15 +479,17 @@ height: 100vh;
   }
 
 .modal__form label {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 50px;
+    margin-left: -1.5rem;
   }
   .modal__form input {
     font-size: 1.4rem;
     padding: 1rem 1.5rem;
     border: 1px solid #ddd;
     border-radius: 0.5rem;
-    margin-right: -5rem;
+    margin-right: -4rem;
+    margin-right: -2rem;
   }
   
   .modal__form button {
@@ -1472,16 +1474,15 @@ flex-direction: column;
   }
 
   .operations__tab {
-    margin-right: -1rem;
+    margin-left: -20rem;
     margin-right: 2.5rem;
-    /* transform: translateY(1rem); */
+    transform: translateY(8rem);
   }
 
 
   .operations__tab--1 {
-    max-width:60%;
+    max-width:100%;
     margin: 0;
-    height: 3.2rem;
     padding: 0;
     font-size: 1.7rem;
     border-radius: 2rem;
@@ -1489,20 +1490,18 @@ flex-direction: column;
   }
 
   .operations__tab--2 {
-    max-width:60%;
+    max-width:100%;
     margin: 0;
     padding: 0;
     background-color:sienna;
     font-size: 1.7rem;
     border-radius: 2rem;
-    height: 3.2rem;
   }
   
 
   .operations__tab--3 {
-  max-width:60%;
+  max-width:100%;
   padding: 0;
-  height: 3.2rem;
   background-color:sienna;
   font-size: 1.7rem;
   border-radius: 2rem;
