@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myorthoweb</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-stethoscope"></i></i>ORTHODONTICS</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span><span class="bar"></span>
+          <span class="bar"></span><span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href=".main" class="navbar__links">Introduction</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#scrol" class="navbar__links">Habit</a>
+          </li>
+          <li class="navbar__item">
+            <a href=".slidehead" class="navbar__links">Braces</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#section--2" class="navbar__links">Branches</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#section--3" class="navbar__links">Aim</a>
+          </li>
+          <button class="navbar__btn"  class="button" >Sign up</button>
+        </ul>
+      </div>
+    </nav>
+    </div>
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+          kindly fill in your details
+        </h2>
+        <form action="form.html" class="modal__form" method="GET">
+            <label >Title</label>
+
+            <input type="text"  placeholder="Prof, Dr, Mr, Mrs"/>
+            <label >First Name</label>
+            <input type="text" id="first" />
+            <label >Last Name</label>
+            <input type="text" id="last" />
+            <label>Email Address</label>
+            <input type="email" id="email" required placeholder="@email"/>
+            <label>Password</label>
+            <input type="password" id="email" required placeholder="different characters"/>
+            <button class="btn" type="submit">Next step &rarr;</button>
+          </form>
+      </div>
+      <div class="overlay hidden"></div>
+<div class="main section--hidden sectored" >
+  <video autoplay loop muted plays-inline class="back-video">
+    <source  src="image/rem.mp4" type="video/mp4">
+</video>
+        <div class="main__container">
+          <div class="main__content">
+            <h1>ORTHODONTICS</h1>
+            <h2>ENCHANCE YOUR BEAUTY</h2>
+            <p>Using braces is cool and affordable</p>
+            <button class="main__btn" id="scroled">Know more...</button>
+          </div>
+          <div class="main__img--container">
+            <img id="main__img" src="./image/pic.svg" />
+          </div>
+        </div>
+      </div>
+
+    
+      <section class="section section--hidden sectored" id="scrol">
+          <div class="section__title">
+              <h2 class="section__description">Oral Habit</h2>
+              <h3 class="section__mained">
+                  Everything you need to know about oral habit.
+              </h3>
+          </div>
+          <div class="features">
+            <img
+            src="./image/downloaqqqd-lazy.jpg"
+            data-src="./image/downloaqqqd.jpg"
+            alt="habit"
+            class="immg features__img lazy-img"
+            /> 
+
+            <div class="features__feature">
+            <h5 class="features__header" >Finger biting</h5>
+            <p>
+                Frequently bitting of finger is a bad habit that predispose one to malocclusion.
+                children are more seeing doing this. This habit predispose children to severe malocclusionand it should be 
+                prevented. The space between the nail and soft tissue is an habitat for microoganisms which coul predispose individual to infection.
+            </p>
+                </div>
+            <div class="features__feature">
+            <h5 class="features__head">Opening bottle</h5>
+            <p >
+            malocclusion could also result from this habit. this exert force on the 
+            anterior teeth causing imbalance between the teeth. Adults are more frequently seen doing this. Dental education is a way out. Besides, malocclusion that could result from this, the periodontal ligaments could be 
+          damage and the enamel could as well wear off. fracture, mostly uncompliacted fracture could also be seen.</p>
+            </div>
+            <img
+            src="./image/sssw-lazy.jpg"
+            data-src="./image/sssw.jpg"
+            alt="Plant"
+            class="immg  features__img lazy-img"
+            />
+            <img
+            src="./image/uyt-lazy.jpg"
+            data-src="./image/uyt.jpg"
+            alt="Plant"
+            class="immg features__img lazy-img"
+            />
+            <div class="features__feature">
+            <h5 class="features__header" >Thumb sucking</h5>
+            <p >
+            children with habit are prone anterior open bite. One of the oral habit that is difficult to control
+            becacuse some parents think it prevent the child from crying and a measure to keep them relived and focus on what they are doing. More often than none, Children enjoy it more.
+            they usually have imcomplete and procline anterior teeth. Correcting this malocclusion is quite expensive and time comsuming.
+            </p>
+            </div>
+            </div>
+      </section>
+
+    <div class="slidehead section--hidden sectored slideref">
+          <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <h9>Enchance your smile</h9>
+                    <img src="./image/download.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h9>Gives you a beautiful dentition</h9>
+                    <img src="./image/hwtys.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h9>Adds quality to your smile</h9>
+                    <img src="./image/hsh.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h9>It's very cool and simple</h9>
+                    <img src="./image/uwhw.jpg" alt="">
+                </div>
+  
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+  </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+
+
+        <section class="section section--hidden sectored" id="section--2">
+          <div class="section__title">
+            <h2 class="section__descriptioned" >Branches of Orthodontics</h2>
+            <h3 class="section__header">Understanding the bases of orthodontics is crucial and can not be overemphasized, this
+              enchaces our understanding.
+            </h3>
+          </div>
+    
+          <div class="operations">
+            <div class="operations__tab-container">
+              <button
+                class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1"
+              >
+              Preventive <span class="tablee">Orthodontics</span>
+              </button>
+              <button class="btn operations__tab operations__tab--2" data-tab="2" >
+              Interceptive <span class="tablee">Orthodontics</span>
+              </button>
+              <button class="btn operations__tab operations__tab--3" data-tab="3">
+              Correction <span class="tablee">Orthodontics</span>
+              </button>
+            </div>
+            <div
+              class="operations__content operations__content--1 operations__content--active"
+            >
+              <div class="operations__icon operations__icon--1">
+                <img src="./image/health.png" id="svg">
+              </div>
+              <h5 class="operations__header">
+                Preventive orthodontics, as the name implies;
+              </h5>
+              <p >
+                Is action taken to preserve the integrity of what appears to be
+        the normal occlusion at a specific time. Preventive
+        orthodontics requires the ability to appraise normal
+        dentofacial and general development and growth and
+        the recognition of deviations from the normal. It entails
+        the elimination of deleterious local habits involving
+        dentofacial structures. 
+              </p>
+            </div>
+    
+            <div class="operations__content operations__content--2">
+              <div class="operations__icon operations__icon--2">
+                <img src="./image/kda.png" id="svg">
+              </div>
+            <h5  class="operations__header">
+                This definition permit future normal development;
+              </h5>
+              <p>
+                By the American Association of
+            Orthodontists, Council of Orthodontic Education, is
+            "that phase of the science and art of orthodontics, employed
+            to recognize and eliminate potential irregularities and
+            ma/positions in the developing dentofacial complex". This
+            phase specifically concentrates on its efforts towards
+            improving environmental conditions.
+              </p>
+            </div>
+            <div class="operations__content operations__content--3">
+              <div class="operations__icon operations__icon--3">
+                <img src="./image/flez.png" id="svg">
+              </div>
+              <h5 class="operations__header">
+                Correcting abnormalities is highly imperative:
+              </h5>
+              <p>
+                corrective orthodontics is the treatment of a malocclusion in the permanent dentition. This is where dental appliances are used to move teeth. Most of the problems dealt with in this category should be dental in nature.
+            this involves correcting abnormalities that has occured. using fix braces, removable orthodontics appliances.
+            Sometimes, orthognathic surgery play a crucial role in correcting malocclusion.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="sectad section--hidden sectored" id="section--3">
+          <section class="sectioned section--hidden sectored"  >
+            <h2 class="section__descriptioneded" >AIMS OF ORTHODONTIC TREATMENT</h2>
+          <p class="operations__edu">The treatment provided should not only satisfy the
+          patient's esthetic desires but also satisfy certain
+          functional and physiologic requirements. [ackson had
+          summarized the aims of orthodontic treatment as:</p>
+          <ul >
+          <li  class="operations__edun"> Functional efficiency </li>
+          <li  class="operations__edun"> Structural balance </li>
+          <li  class="operations__edun">Esthetic harmony </li>
+         </ul>
+          <h2 class="section__descriptioneded">
+            Functional efficiency
+          </h2>
+          <p  class="operations__edu">The teeth along with their surrounding structures are
+          required to perform certain important functions. The
+          orthodontic treatment should increase the efficiency
+          of the functions performed by the stomatognathic
+          system.</p>
+          <h2 class="section__descriptioneded">Structural balance</h2>
+          <p  class="operations__edu">The structures affected by the orthodontic treatment
+          include, not only the teeth but also the surrounding
+          soft tissue envelop and the associated skeletal
+          structures. The treatment should maintain a balance
+          between these structures.</p>
+          <h2 class="section__descriptioneded">Esthetic harmony</h2>
+    <p  class="operations__edu">The orthodontic treatment should increase the overall
+          esthetic appeal of the individual. This might just
+          require the alignment of certain teeth or the forward
+          movement of the complete jaw including its basal
+          bone.</p>
+          </div>
+          </div>
+        </section>
+    
+
+
+<section class="sectioned section--hidden sectored">
+        <div class="footer__container">
+          <div class="footer__links">
+            <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/sign__up">Service</a> <a href="/">Policy</a>
+                <a href="/">Careers</a> <a href="/">Quality</a>
+              </div>
+              <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/">Contact</a> <a href="/">Support</a>
+                <a href="/">Donation</a> <a href="/">Sponsorships</a>
+              </div>
+            </div>
+            <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                <h2>Videos</h2>
+                <a href="/">Lectures</a> <a href="/">Services</a>
+                <a href="/">Agency</a> <a href="/">Influencer</a>
+              </div>
+              <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="/">Instagram</a> <a href="/">Facebook</a>
+                <a href="/">Youtube</a> <a href="/">Twitter</a>
+              </div>
+            </div>
+          </div>
+          <section class="social__media">
+            <div class="social__media--wrap">
+              <div class="footer__logo">
+                <a href="/" id="navbar__logo" ><i class="fa-solid fa-stethoscope"></i>ORTHODONTICS</a>
+              </div>
+              <p class="website__rights"> It's a pleasure </p>
+              <div class="social__icons">
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Youtube"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Twitter"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+       </section>
+  </body>
+</html>
