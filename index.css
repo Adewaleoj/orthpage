@@ -195,10 +195,13 @@ height: 100vh;
       transition: all 0.5s ease;
       width: 18rem;
       z-index: 99;
-      height: 50vh;
+      height: 60vh;
+      line-height: -rem;
+      overflow: scroll;
       font-size: 1.6rem;
     }
   
+    
     #navbar__logo {
       padding-left: 25px;
     }
@@ -231,7 +234,7 @@ height: 100vh;
       border-left-color: #fefe23;
       border-right: #1c06e4;
       margin-left: 0.5rem; 
-      font-size: 1.4rem; 
+      font-size: 2rem; 
     }
   
     .button {
@@ -698,6 +701,7 @@ height: 100vh;
     .services h1 {
       font-size: 1.2rem;
     }
+    
   
     .services__card {
       width: 300px;
@@ -723,6 +727,14 @@ height: 100vh;
       font-size: 2rem;
     }
   }
+
+@media screen and (orientation: landscape){
+  #main__img {
+    height: 30%;
+    width: 30%;
+    padding-bottom: 12rem;
+  }
+}
 
   .slidehead {
     background-color: black;
@@ -1452,7 +1464,6 @@ flex-direction: column;
   .operations__tab-container {
     display: flex;
     justify-content: center;
-    scale: 5rem;
     padding-left: 2rem;
   }
 
@@ -1603,30 +1614,34 @@ flex-direction: column;
 
 
   .operations__tab--1 {
-    width:120%;
+    max-width:100%;
     margin: 0;
     padding: 0;
     background-color:sienna;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     border-radius: 2rem;
+    font-weight: bolder;
   }
 
   .operations__tab--2 {
-    width:120%;
+    max-width:100%;
     margin: 0;
     padding: 0;
     background-color:sienna;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     border-radius: 2rem;
+    font-weight: bolder;
   }
   
 
   .operations__tab--3 {
-  width:120%;
-  padding: 0;
-  background-color:sienna;
-  font-size: 1.0rem;
-  border-radius: 2rem;
+    max-width:100%;
+    margin: 0;
+    padding: 0;
+    background-color:sienna;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    font-weight: bolder;
   }
 
   .operations__tab--1:hover {
@@ -1685,13 +1700,13 @@ flex-direction: column;
 } 
 
 .section__descriptioneded {
-  font-size: 5rem;
-  width: 130%;
+  font-size: 3.5rem;
+  max-width: 60%;
   font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 1rem;
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
   margin-left: 8rem;
   justify-content: center;
   display: flex;
@@ -1720,8 +1735,24 @@ flex-direction: column;
   margin-top: 2rem;
   margin-left: 14rem;
   margin-bottom: 2rem;
-  line-height: 2.1rem;
+  line-height: 3.1rem;
 }
+
+@media all and (max-width: 600px) {
+  .operations__edun {
+    font-size: 3.65rem;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+    line-height: 3.1rem;
+  }
+  
+
+}
+
 
 @media all and (max-width: 480px) {
   .operations__edu {
